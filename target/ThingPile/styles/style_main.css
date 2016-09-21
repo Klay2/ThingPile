@@ -1,0 +1,63 @@
+
+*{
+  outline: 1px solid red;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  font-family: 'Droid Sans Mono', ;
+
+}
+
+div#header{
+  height: 50px;
+  min-width: 400px;
+  font-size: 20px;
+  background-color: #663399;
+  color:#BDC3C7;
+  float: top;
+  position:fixed;
+
+}
+
+#header_logo{
+  font-size: 30px;
+  color: #E4F1FE;
+}
+
+#header_nav{
+  top: 51px;
+  float: top;
+  position: fixed;
+  height: 30px;
+  min-width: 400px;
+  background-color: #FFFFFF;
+
+}
+
+#body_container{
+  padding-top: 82px;
+}
+
+#side_panel{
+
+  width: 120px;
+  height: 100%;
+  color:#BDC3C7;
+  background-color: #00587A;
+  float: left;
+  position: fixed;
+}
+
+#content{
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 150px;
+
+  color: #FFFFFF;
+  background-color: #282830;
+}
+
+#content *{
+  width: 500px;
+  min-width: 500px;
+}

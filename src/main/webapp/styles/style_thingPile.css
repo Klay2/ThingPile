@@ -1,0 +1,153 @@
+
+*{
+
+  text-decoration: none;
+  margin: 0;
+  font-family: 'Droid Sans Mono', ;
+
+}
+
+#header{
+  height: 50px;
+  min-width: 400px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #663399;
+  color:#BDC3C7;
+  float: top;
+
+
+}
+
+#header_logo{
+  font-size: 30px;
+  color: #E4F1FE;
+}
+
+#header_nav{
+  top: 51px;
+  float: top;
+  height: 30px;
+  min-width: 400px;
+  background-color: #FFFFFF;
+  width: 100%;
+
+}
+
+body{
+  background-color: #282830;
+}
+
+
+.Thing{
+   display: inline-block;
+   background: red;
+
+   max-width: 55%;
+   min-height:3.5em;
+   padding: .5em;
+   margin: 1%;
+   color: white;
+}
+
+
+
+#new_attribute_button{
+  display: block;
+}
+
+#body_container{
+  padding-top: 82px;
+}
+
+
+/* settings for all headers for each section not including the top page header*/
+.panel_header{
+  height: 50px;
+  width: 100%;
+
+
+  background-color: #663399;
+
+}
+
+
+/*settings for the panels that hold the created attributes and tags but not things*/
+.panel{
+  float:left;
+  text-align: center;
+  overflow-y: scroll;
+  height: 100%;
+  width:15%;
+  max-width: 15%;
+  color:#BDC3C7;
+  background-color: #282830;
+
+}
+
+.attribute_container_panel{
+  padding: 5%;
+  width: 90%;
+  max-width:90%;
+  height: 100%;
+  background-color: blue;
+  color: #FFFFFF;
+  margin-top:10%;
+}
+
+.attribute_container_thing{
+  display: inline-block;
+  text-align: center;
+  padding: .5em;
+  background-color: blue;
+  color: #FFFFFF;
+
+  margin: .5em;
+}
+
+
+
+/*header for tags panel*/
+#tags_header{
+
+
+}
+
+/* tags container panel*/
+#tags_content{
+
+
+}
+
+/*header for attributes panel*/
+#attributes_header{
+
+
+
+
+}
+
+/* attributes container panel*/
+#attributes_content{
+
+
+
+
+}
+
+/*header for things panel*/
+#things_header{
+
+width:70%;
+max-width:70%;
+}
+
+/*things container panel*/
+#things_content{
+  height: 100%;
+  padding-top: 122px;
+  padding-left: 35%;
+
+  color: #FFFFFF;
+  background-color: #282830;
+}
